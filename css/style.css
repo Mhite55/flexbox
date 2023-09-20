@@ -1,0 +1,214 @@
+/* .Flexbox-row {
+    display: flex;
+    /*Par defaut display: flex est en flex-direction : row */
+    /* flex-direction: row; */
+    /* Par Défaut le positionnement est en Justify-content : start */
+    /* justify-content: space-around;} */
+
+/* .square {
+    background-color: aqua;
+    width: 50px ;
+    height: 50px;
+} */
+ .purple {
+    background-color: purple;
+}
+/* .Flexbox-column{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center; */
+
+/*.flexbox-row {
+    display: flex;
+}
+.square {
+    background-color: red;
+    width: 11.1vw;
+    height: 11.1vw;
+}
+.flexbox-space {
+    display: flex;
+    justify-content: space-between ;
+    height: 11.1vw;
+}
+.square-separed {
+    background-color: blueviolet;
+    width: 11.1vw;
+    height: 11.1vw;
+}
+.square-nospace {
+    background-color: aqua;
+    width: 11.1vw;
+    height: 11.1vw;
+}
+.flexbox-nospace {
+    display: flex;
+    justify-content: space-around;
+}
+.flexbox-entier {
+    display: flex;
+    justify-content: center;
+}
+.square-entier{
+    background-color: yellow;
+    width: 11.1vw;
+    height: 11.1vw;
+}*/
+/* .flexbox-liste{
+    display: flex;
+    background-color: red;
+}
+.flexbox-entier {
+    display: flex;
+    background-color: lime;
+    height: 10vw;
+}
+.flexbox-section{
+    display: flex;
+    height: 20vw;
+}
+.flexbox-fin{
+    background-color: brown;
+    height: 5vw;
+} */
+/* * {
+    margin: 0;
+    padding:0 ;
+} */
+/* 
+.flex1 {
+    flex: 1;
+}
+.flex2 {
+    flex: 2;
+}
+.flex8 {
+    flex: 8;
+}*/
+/* .order1 {
+    order: 1;
+} 
+.order2 {
+    order: 2;
+}
+.order3 {
+    order: 3;
+}  */
+/* Exercice 1 */
+/* body {
+    background-color: gray;
+}
+.yellow{
+    background-color: yellow;
+  
+}
+.cyan{
+    background-color: cyan;
+   
+}
+.gray{
+    background-color: gray;
+   
+}
+.flexbox1{
+    display: flex;
+}
+.flexbox2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flexbox3-ab{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.div-carre {
+    width: 30vw;
+    height: 30vw;
+    margin-right: 10px;
+}
+.div-retangle {
+    width: 100%;
+    height: 12vw;
+}
+.div-double {
+    width: 15vw;
+    height: 20vw; 
+    
+} */
+/* Corrigé */
+/*.grosrectangle {
+    display: flex;
+    justify-content: space-between;
+}
+.groscarre {
+    width: 49vw;
+    height: 49vw;
+}
+.gray {
+    background-color: gray;
+}
+.cadetblue{
+    background-color: cadetblue;
+}
+.flexwrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.petitrectangle{
+    width: 100%;
+    height: 39%
+}
+.green{
+    background-color: greenyellow;
+}
+.red{
+    background-color: red;
+}
+.petitcarre{
+    width: 49%;
+    height: 59%;
+    margin-top: 2%;
+}*/
+.gray{
+    background-color: gray ;
+}
+.cyan{
+    background-color: cyan;
+}
+.white{
+    background-color: white;
+}
+.flexbox0 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 98vw;
+    height: 50vw;
+}
+.rectangle-logo {
+    width: 100%;
+    height: 10%;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.flexbox-img{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    height: 45%;
+
+}
+
+.petitcarre-img{
+    width: 10%;
+    height: 7%;
+}
+
+

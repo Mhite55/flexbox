@@ -96,7 +96,9 @@
 .order3 {
     order: 3;
 }  */
+
 /* Exercice 1 */
+
 /* body {
     background-color: gray;
 }
@@ -177,6 +179,21 @@
     height: 59%;
     margin-top: 2%;
 }*/
+
+/* exo 2 */
+
+/* .green{
+    background-color: green;
+}
+.purple{
+    background-color: purple;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
 .gray{
     background-color: gray ;
 }
@@ -189,26 +206,220 @@
 .flexbox0 {
     display: flex;
     flex-wrap: wrap;
-    width: 98vw;
+    width: 100vw;
     height: 50vw;
 }
 .rectangle-logo {
-    width: 100%;
+    width: 96%;
     height: 10%;
     margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.flexbox-box{
+    display: flex;
+    width: 80%;
+    height: 70%;
     margin-left: 1%;
 }
 .flexbox-img{
     display: flex;
-    justify-content:space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 45%;
+    margin-left: 1%;
+}
+.petitcarre-img{
+    width: 11%;
+    height: 40%;
+    margin-right: 3%;
+    margin-top: 1%;
+}
+.flexbox-info{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 50%;
+    margin-top: 10%;
+}
+.rectangle-info{
+    width: 25%;
+    height: 90%;
+}
+.flexbox-divers{
+    display: flex;
+    flex-wrap: wrap;
+    width: 10%;
+    height: 70%;
+}
+.rectangle-divers{
+    width: 90%;
+    height: 80%;
+    margin-top: 4%;
+}
+.flexbox-foot{
+    width: 98%;
+    height: 10%;
+    margin-left: 1%;
+}
+.rectangle-foot{
+    width: 98%;
+    height: 98%;
+} */
+
+/* corrigé exo 2 */
+
+/* .main-container{
+   
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo, .pieds {
+    width: 90%;
+    height: 10%;
+   
+}
+.gros-flex{
+    height: 75%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.border{
+    border: 1px solid black;
+}
+.moyenne{
+    width: 85%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.divers {
+    width: 13%;
+    height: 100%;
+   
+}
+.images {
+    height: 45%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: start;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.infos {
+    height: 45%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    width: 12%;
+    height: 47%;
+    
+    margin-right: 2%;
+}
+.info{
+    width: 28%;
+    height: 100%;
+    
+} */
+
+/* exo3 */
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-color: bisque;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-main{
+    height: 75%;
+    width: 90%;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+}
+.header, .footer{
+    width: 90%;
+    height: 10%;
+    background-color: aqua;
+}
+.header-text{
+    width: 100%;
+    height: 100%;
+    align-content: center;
+}
+.nav{
+    width: 15%;
+    height: 25%;
+    background-color: blue;
+    margin-right: 5%;
+}
+.sections{
+    width: 80%;
+    height: 100%;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+.section-1{
+    width: 100%;
+    height: 55% ;
+    background-color: green;
+    display: flex;
+}
+.section-2{
+    width: 100%;
+    height: 45% ;
+    background-color: gold;
+    display: flex;
+    justify-content: end;
+}
+.article{
+    width: 60%;
+    height: 80%;
+    background-color:violet;
+}
+.aside-all{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: space-between;
+}
+.aside1{
     width: 100%;
     height: 45%;
-
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
-
-.petitcarre-img{
-    width: 10%;
-    height: 7%;
+.aside2{
+    width: 100%;
+    height: 45%;
+    background-color: royalblue;
+}
+.aside3{
+    width: 38%;
+    height: 42%;
+    background-color: burlywood;     
 }
 
 

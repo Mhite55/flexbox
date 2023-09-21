@@ -339,7 +339,6 @@
     width: 100vw;
     height: 100vh;
     display: flex;
-    background-color: bisque;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -347,14 +346,17 @@
 .flex-main{
     height: 75%;
     width: 90%;
-    background-color: brown;
+ 
     display: flex;
     flex-direction: row;
 }
 .header, .footer{
     width: 90%;
     height: 10%;
-    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 .header-text{
     width: 100%;
@@ -364,62 +366,92 @@
 .nav{
     width: 15%;
     height: 25%;
-    background-color: blue;
-    margin-right: 5%;
+    margin-right: 3%;
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 .sections{
     width: 80%;
     height: 100%;
-    background-color: chocolate;
     display: flex;
     flex-direction: column;
+    align-items: center; 
     align-content: center;
     
 }
 .section-1{
     width: 100%;
     height: 55% ;
-    background-color: green;
     display: flex;
-}
-.section-2{
-    width: 100%;
-    height: 45% ;
-    background-color: gold;
-    display: flex;
-    justify-content: end;
+    justify-content: space-between;
+    margin-top: 5%;
+    flex-direction: row;
+    margin-bottom: 2%;
 }
 .article{
-    width: 60%;
-    height: 80%;
-    background-color:violet;
+    width: 55%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 7%;
+    margin-left: 1%;
 }
 .aside-all{
     width: 40%;
-    height: 80%;
+    height: 70%;
     display: flex;
     flex-direction: column;
-    background-color: black;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 7%;
 }
 .aside1{
-    width: 100%;
+    width: 60%;
     height: 45%;
-    background-color: lightsteelblue;
     display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
 }
 .aside2{
-    width: 100%;
+    width: 60%;
     height: 45%;
-    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.section-2{
+    width: 100%;
+    height: 45% ;
+    flex-direction: column;
+    
+    display: flex;
+
+}
+.aside-all2{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: end;
+    margin-top: 7%;
 }
 .aside3{
-    width: 38%;
-    height: 42%;
-    background-color: burlywood;     
+    width: 25%;
+    height: 52%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-right: 7%;
+}
+.border{
+    border: 1px solid black;
 }
 
 
